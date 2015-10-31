@@ -7,7 +7,7 @@ router.get('/', function(req, res, next) {
 });
 
 router.get('/enroll', function(req, res, next) {
-    res.render('index', { title: 'TEC 2015' });
+    res.render('enroll', { title: 'TEC 2015' });
 });
 
 module.exports = router;

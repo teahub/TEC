@@ -1,5 +1,24 @@
 extends layout
 
 block content
+  script(src='/scripts/enroll.js')
   h1= title
-  p Bem vindo ao Encontro #{title}
+  section.enroll
+    div.row
+      article.col-sm-12
+        input(type='checkbox')
+        h1 Credenciamento + Café + Abertura
+    div.row
+      article.col-sm-6
+        input(type='checkbox')
+        h1 Palestra 1
+      article.col-sm-6
+        input(type='checkbox')
+        h1 Palestra 2
+    div.row
+      article.col-sm-6
+        input(type='checkbox')
+        h1 Palestra 3
+      article.col-sm-6
+        input(type='checkbox')
+        h1 Palestra 4
