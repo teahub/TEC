@@ -1,0 +1,27 @@
+{
+  "name": "Encontro TEC",
+  "description": "Encontro de Tecnologia e Empreendedorismo do Cariri",
+  "main": "",
+  "authors": [
+    "Vinícius Rodrigues <viniciusclerod@gmail.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "Tecnologia",
+    "Empreendedorismo",
+    "Cariri",
+    "Encontro"
+  ],
+  "homepage": "http://encontrotec.com",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.5"
+  }
+}
